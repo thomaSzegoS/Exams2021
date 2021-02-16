@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.tzegos.JUnitTestWithMockFramework
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
+com.tzegos.JUnitTestWithMockFramework.testNetwork()  Time elapsed: 0.003 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:84)
+	at org.junit.jupiter.api.AssertNotNull.failNull(AssertNotNull.java:47)
+	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:36)
+	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:31)
+	at org.junit.jupiter.api.Assertions.assertNotNull(Assertions.java:258)
+	at com.tzegos.JUnitTestWithMockFramework.testNetwork(JUnitTestWithMockFramework.java:25)
+
